@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Runi Store BR</title>
+  <style>
+    body {
+      background-color: #1a0000;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo img {
+      width: 180px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff1a1a;
+    }
+
+    .menu {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .menu a {
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .menu a:hover {
+      background-color: #ff0000;
+    }
+
+    .jogos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .jogo {
+      background-color: #330000;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .jogo img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .jogo p {
+      margin-top: 8px;
+    }
+
+    .download {
+      display: block;
+      margin-top: 10px;
+      background-color: #b30000;
+      color: white;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .download:hover {
+      background-color: #e60000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="logo.png" alt="Runi Store Logo">
+  </div>
+
+  <h1>Runi Store BR</h1>
+
+  <div class="menu">
+    <a href="#dublados">🎙️ Dublados</a>
+    <a href="#legendados">📜 Legendados</a>
+  </div>
+
+  <div class="jogos" id="dublados">
+    <div class="jogo">
+      <img src="lego.jpg" alt="LEGO Star Wars">
+      <p>LEGO Star Wars (DUBLADO)</p>
+      <a class="download" href="https://www.mediafire.com/file/0e4un08jjugxbif/Pedrost_LEGO_Star_Wars_01.pkg/file">Baixar PKG</a>
+    </div>
+  </div>
+
+</body>
+</html>
